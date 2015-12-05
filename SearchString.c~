@@ -183,6 +183,7 @@ int main()
 	char *s = test();
 	puts(s);
 	free(s);
-
+//	readFile("test2.txt");
 	return 0;
+	//May da yeu roi con chay lam tac vu the.
 }
