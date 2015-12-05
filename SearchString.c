@@ -175,9 +175,10 @@ int main()
 	word = (char*)malloc(length(temp) + 1);
 	strcpy(word, temp);
 	printf("%s *\n", word);
-/*	printf("number of file: %d \n", find("voi", listFile, 2));
-	printf("number of word: = %d\n", counter_word);
-*/	
+	
+	// test tim kiem trong dsach listFile 
+	find(word, listFile, 2);
+	
 	free(word);
 	free(listFile);
 	char *s = test();
